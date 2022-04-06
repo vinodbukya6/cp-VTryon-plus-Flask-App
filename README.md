@@ -9,7 +9,9 @@ For all packages, run pip install -r requirements.txt
 **Pretrained Models**
 Download pretrained models and paste in folder "checkpoints/"
 Tryon (GMM & TOM)Models - https://1drv.ms/u/s!Ai8t8GAHdzVUiQA-o3C7cnrfGN6O?e=EaRiFP
+
 Graphonomy - https://drive.google.com/uc?id=1eUe18HoH05p0yFUd_sN6GXdTj82aW0m9
+
 OpenPose - !wget http://posefs1.perception.cs.cmu.edu/OpenPose/models/pose/coco/pose_iter_440000.caffemodel and openpose_pose_coco.prototxt
 
 **Testing with custom images**
@@ -34,5 +36,3 @@ https://github.com/vinodbukya6/cp-VTryon-plus-Flask-App/blob/36860ed0ebaaabf4bea
 
 10. Run Try-on Module(TOM) Model - https://github.com/vinodbukya6/cp-VTryon-plus-Flask-App/blob/36860ed0ebaaabf4bea2c02c49d2f0dff346b9b9/app.py#L93
 Results in "result/TOM/test/try-on/"
-
-

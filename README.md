@@ -1,6 +1,6 @@
 # cp-VTryon-plus-Flask-App
 
-Falsk App version of https://github.com/minar09/cp-vton-plus for **custom images**. Thank you so much **minar09** for your Great Work!!!
+Falsk App version of https://github.com/minar09/cp-vton-plus for **custom images**. Thank you so much **@minar09** for your Great Work!!!
 
 **Installation**
 

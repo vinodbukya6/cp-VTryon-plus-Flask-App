@@ -10,12 +10,7 @@ For all packages, run pip install -r requirements.txt
 
 to run the model with custom internet images, make sure you have the following:
 
-image (image of a person, crop/resize to 192 x 256 (width x height) pixels)
-        ''' # ..... Resize/Crop Images 192 x 256 (width x height) ..... # 
-        img_p = cv2.imread("data/test/image/"+filename_person)
-        person_resize = cv2.resize(img_p, (192, 256))
-        # save resized person image
-        cv2.imwrite("data/test/image/"+filename_person, person_resize) '''
+image (image of a person, crop/resize to 192 x 256 (width x height) pixels) - https://github.com/vinodbukya6/cp-VTryon-plus-Flask-App/blob/36860ed0ebaaabf4bea2c02c49d2f0dff346b9b9/app.py#L44
         
 image-parse (you can generate with CIHP_PGN or Graphonomy pretrained networks from the person image. See this comment)
 cloth (in-shop cloth image, crop/resize to 192 x 256 (width x height) pixels)

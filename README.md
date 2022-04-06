@@ -4,14 +4,13 @@ Falsk App version of https://github.com/minar09/cp-vton-plus for **custom images
 
 **Installation**
 
-conda install pytorch=0.4.1 torchvision=0.2.1 -c pytorch
-For all packages, run pip install -r requirements.txt
+conda install pytorch=0.4.1 torchvision=0.2.1 -c pytorch. For all packages, run pip install -r requirements.txt
 
 **Pretrained Models**
 
 Download pretrained models and paste in folder "checkpoints/"
 
-Tryon (GMM & TOM)Models - https://1drv.ms/u/s!Ai8t8GAHdzVUiQA-o3C7cnrfGN6O?e=EaRiFP
+Tryon(GMM & TOM)Models - https://1drv.ms/u/s!Ai8t8GAHdzVUiQA-o3C7cnrfGN6O?e=EaRiFP
 
 Graphonomy - https://drive.google.com/uc?id=1eUe18HoH05p0yFUd_sN6GXdTj82aW0m9
 

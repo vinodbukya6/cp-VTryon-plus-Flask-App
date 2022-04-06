@@ -3,11 +3,14 @@
 Falsk App version of https://github.com/minar09/cp-vton-plus for **custom images**. Thank you so much **minar09** for your Great Work!!!
 
 **Installation**
+
 conda install pytorch=0.4.1 torchvision=0.2.1 -c pytorch
 For all packages, run pip install -r requirements.txt
 
 **Pretrained Models**
+
 Download pretrained models and paste in folder "checkpoints/"
+
 Tryon (GMM & TOM)Models - https://1drv.ms/u/s!Ai8t8GAHdzVUiQA-o3C7cnrfGN6O?e=EaRiFP
 
 Graphonomy - https://drive.google.com/uc?id=1eUe18HoH05p0yFUd_sN6GXdTj82aW0m9
@@ -17,6 +20,7 @@ OpenPose - !wget http://posefs1.perception.cs.cmu.edu/OpenPose/models/pose/coco/
 **Testing with custom images**
 
 to run the model with custom internet images, make sure you have the following:
+
 Create "data/test/cloth, cloth-mask, image, image-mask, image-parse, image-parse-new, pose, warp-cloth, warp-mask" **(total 9 folders)**
 
 1. image (image of a person, crop/resize to 192 x 256 (width x height) pixels) - https://github.com/vinodbukya6/cp-VTryon-plus-Flask-App/blob/36860ed0ebaaabf4bea2c02c49d2f0dff346b9b9/app.py#L44

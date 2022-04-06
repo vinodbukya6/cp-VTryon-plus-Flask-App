@@ -1,6 +1,6 @@
 # cp-VTryon-plus-Flask-App
 
-Falsk App version of https://github.com/minar09/cp-vton-plus for **custom images**. Thank you so much **@minar09** for your Great Work!!!
+Falsk App version of https://github.com/minar09/cp-vton-plus **CPU** based for **custom images**. Thank you so much **@minar09** for your Great Work!!!
 
 **Installation**
 
@@ -41,6 +41,7 @@ https://github.com/vinodbukya6/cp-VTryon-plus-Flask-App/blob/36860ed0ebaaabf4bea
 Results in "result/TOM/test/try-on/"
 
 **Testing**
+
 Create virtual environment and install packages. Copy home.html and result.html to "templates" folder. 
 
 Run "python app.py"

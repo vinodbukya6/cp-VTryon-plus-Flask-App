@@ -39,3 +39,11 @@ https://github.com/vinodbukya6/cp-VTryon-plus-Flask-App/blob/36860ed0ebaaabf4bea
 
 10. Run Try-on Module(TOM) Model - https://github.com/vinodbukya6/cp-VTryon-plus-Flask-App/blob/36860ed0ebaaabf4bea2c02c49d2f0dff346b9b9/app.py#L93
 Results in "result/TOM/test/try-on/"
+
+**Testing**
+Create virtual environment and install packages. Copy home.html and result.html to "templates" folder. 
+
+Run "python app.py"
+
+Upload target person image and cloth image. Get results.
+

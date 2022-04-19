@@ -42,11 +42,6 @@ Results in "result/TOM/test/try-on/"
 
 **Testing**
 
-Create virtual environment and install packages. Copy home.html and result.html to "templates" folder. 
-
-copy "dataloaders", "networks" "sync_batchnorm" folders from https://github.com/Gaoyiminggithub/Graphonomy to working directory.
-
 Run "python app.py"
 
 Upload target person image and cloth image. Get results!!!
-

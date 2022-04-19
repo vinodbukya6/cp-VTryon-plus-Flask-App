@@ -1,5 +1,7 @@
 # Library dependencies for the python code.  You need to install these with
-# `pip install -r requirements.txt` before you can run this.
+# First run: conda install pytorch=0.4.1 torchvision=0.2.1 -c pytorch
+# Next `pip install -r requirements.txt` before you can run this.
+#
 
 Flask==1.1.1
 gunicorn==19.9.0
@@ -11,3 +13,4 @@ tensorboardX
 pillow
 numpy
 opencv-contrib-python
+networkx

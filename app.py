@@ -8,9 +8,9 @@ import time
 import cv2
 
 ## from custom py files
-from openpose_json import generate_pose_keypoints
-from cloth_mask import cloth_masking
-from image_mask import make_body_mask
+from tryon_utils.openpose_json import generate_pose_keypoints
+from tryon_utils.cloth_mask import cloth_masking
+from tryon_utils.image_mask import make_body_mask
 
 app = Flask(__name__)
 app.config['DATABASE'] = 'database/'
@@ -78,7 +78,7 @@ def upload():
 
 
         # ..... Run Geometric Matching Module(GMM) Model ..... #
-        cmd_gmm = "python test.py --name GMM --stage GMM --workers 4 --datamode test --data_list test_samples_pair.txt --checkpoint checkpoints/gmm_final.pth"
+        cmd_gmm = "python test.py --name GMM --stage GMM --workers 4 --datamode test --data_list test_samples_pair.txt --checkpoint checkpoints/GMM/gmm_final.pth"
         subprocess.call(cmd_gmm, shell=True)
         #time.sleep(10)
         # move generated files to data/test/
@@ -90,7 +90,7 @@ def upload():
 
 
         # ..... Run Try-on Module(TOM) Model ..... #
-        cmd_tom = "python test.py --name TOM --stage TOM --workers 4 --datamode test --data_list test_samples_pair.txt --checkpoint checkpoints/tom_final.pth"
+        cmd_tom = "python test.py --name TOM --stage TOM --workers 4 --datamode test --data_list test_samples_pair.txt --checkpoint checkpoints/TOM/tom_final.pth"
         subprocess.call(cmd_tom, shell=True) 
         return render_template('result.html', user_image="result/TOM/test/try-on/"+filename_person)
 
